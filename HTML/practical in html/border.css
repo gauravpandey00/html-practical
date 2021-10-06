@@ -1,0 +1,31 @@
+.border{
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid red;
+}
+.red{
+    margin: 10px;
+    padding: 10px;
+    border-style: dotted;
+}
+.jay{
+    margin: 10px;
+    padding: 5px;
+
+    border-bottom: 1px dotted green;
+}
+.mohan{
+    margin-top: 10px;
+    border: 4px double black;
+}
+.d{
+    margin-top: 10mm;
+    border:2px dashed red;
+    border-radius: 10px;
+
+}
+.e{
+    background-image:(logo.jpg );
+    margin: 10px;
+    border-bottom-left-radius: 20px solid black;
+}
