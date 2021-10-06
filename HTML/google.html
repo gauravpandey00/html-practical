@@ -1,0 +1,23 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="chrome://resources/css/text_defaults_md.css">
+    <link rel="stylesheet" href="shared_vars.css">
+    
+    <title>New Tab</title>
+
+  </head>
+  <body>
+    <iframe id="backgroundImage"
+        src="chrome-untrusted://new-tab-page/custom_background_image?url=">
+    </iframe>
+    <ntp-app></ntp-app>
+    <script type="module" src="new_tab_page.js"></script>
+    <form> 
+        <input type="text" placeholder="enter searssch" value="search" > 
+        </form>
+        
+  </body>
+</html>
